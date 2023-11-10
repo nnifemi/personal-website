@@ -2,8 +2,8 @@
 @import url(reset.css);
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    padding: 1em;
+    background-color: #000000b3; 
+    padding: 16px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -81,7 +81,7 @@ body::-webkit-scrollbar-track {
 
 footer {
     background-color: #000000b3;
-    color: white;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -94,17 +94,17 @@ footer {
 
 .social-icons a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 .social-icons i {
-    font-size: 30px; /* Adjust the size of the social media icons */
+    font-size: 30px;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
 }
 
 .social-icons i:hover {
-    transform: scale(1.2); /* Add a slight scale effect on hover */
+    transform: scale(1.2); 
 }
 
 @keyframes anim {
