@@ -9,9 +9,8 @@ Welcome to my personal website! This project showcases my skills, experiences, a
   - [Home](#home)
   - [About Me](#about-me)
   - [Contact Me](#contact-me)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [The Website Itself](#the-website)
 
 ## Description
 
