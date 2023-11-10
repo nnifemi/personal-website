@@ -1,7 +1,10 @@
 header {
-    background-color: #333;
-    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 1em;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -12,38 +15,52 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
+    padding: 10px;
+    margin: 0 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero {
     text-align: center;
-    padding: 100px;
+    padding: 200px;
     color: white;
-    background-image: url('your-image.jpg'); /* Add the path to your free-to-use image */
+    background-image: url('https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about {
     padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 20px; 
 }
 
 .contact {
     padding: 50px;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7); 
     color: white;
 }
 
 footer {
     text-align: center;
     padding: 16px;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
