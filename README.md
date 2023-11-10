@@ -10,7 +10,7 @@ Welcome to my personal website! This project showcases my skills, experiences, a
   - [About Me](#about-me)
   - [Contact Me](#contact-me)
 - [Contributing](#contributing)
-- [The Website Itself](#the-website)
+- [The Website Itself](#the-website-itself)
 
 ## Description
 
