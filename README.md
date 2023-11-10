@@ -39,12 +39,13 @@ The about me section, with the id "about," provides detailed information about m
 
 The contact me section, with the id "contact," offers my email and phone number for easy communication.
 
-## Usage
-
-Feel free to explore the website, learn more about me, and connect through the provided social media links.
 
 ## Contributing
 
 If you have suggestions, improvements, or find issues, please feel free to open an issue or create a pull request. Contributions are welcome!
+
+## The Website Itself
+To visit my website click [here](https://nnifemi.github.io/personal-website/)
+Feel free to explore the website, learn more about me, and connect through the provided social media links.
 
 Thank you for visiting my website!
