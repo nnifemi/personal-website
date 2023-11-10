@@ -46,6 +46,8 @@ If you have suggestions, improvements, or find issues, please feel free to open 
 
 ## The Website Itself
 To visit my website click [here](https://nnifemi.github.io/personal-website/)
+
+
 Feel free to explore the website, learn more about me, and connect through the provided social media links.
 
 Thank you for visiting my website!
