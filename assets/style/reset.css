@@ -4,11 +4,13 @@ body {
     margin: 0;
     background-color: #f1f4f6;
     font-family: "Nunito Sans","Open Sans",Arial, sans-serif;
-    animation: fadeIn 1s ease-out; 
+    animation: anim 0.5s ease-in;
 }
 
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
-    animation: fadeInUp 1s ease-out;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: anim 0.5s ease-in;
 }
