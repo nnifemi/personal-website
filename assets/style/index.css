@@ -32,13 +32,26 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #ffffff33;
+}
+
+body::-webkit-scrollbar {
+    width: 8px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000000b3; 
+    border-radius: 6px; 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ecf0f1; /* Set the color of the track */
 }
 
 .hero {
     text-align: center;
     padding: 200px;
-    color: white;
+    color: #ffffff;
     background-image: url('https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
@@ -50,25 +63,49 @@ nav a:hover {
 
 .about {
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffffe6;
     border-radius: 10px;
     margin: 20px; 
 }
 
 .contact {
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: #000000b3; 
     color: white;
+}
+
+.phone-number {
+    color: #ecf0f1;
+    font-weight: bold; 
 }
 
 footer {
+    background-color: #000000b3;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 16px;
-    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
     color: white;
 }
 
+.social-icons i {
+    font-size: 30px; /* Adjust the size of the social media icons */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
 
+.social-icons i:hover {
+    transform: scale(1.2); /* Add a slight scale effect on hover */
+}
 
 @keyframes anim {
     from {
@@ -80,3 +117,4 @@ footer {
         translate: 0
     }
 }
+
