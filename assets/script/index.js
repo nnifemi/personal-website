@@ -9,6 +9,6 @@ function addSmoothTransition(element, className) {
 }
 
 window.onload = function() {
-    var container = document.getElementById('container');
+    let container = document.getElementById('container');
     addSmoothTransition(container, 'zoomIn');
 };

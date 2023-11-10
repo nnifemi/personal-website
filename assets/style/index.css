@@ -59,7 +59,7 @@ body::-webkit-scrollbar-track {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 3em;
+    font-size: 48px;
 }
 
 .hero h1 {
