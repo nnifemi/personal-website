@@ -1,0 +1,49 @@
+header {
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    color: white;
+    background-image: url('your-image.jpg'); /* Add the path to your free-to-use image */
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    padding: 50px;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #333;
+    color: white;
+}
